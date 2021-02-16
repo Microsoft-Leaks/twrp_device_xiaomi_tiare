@@ -19,7 +19,7 @@ PRODUCT_RELEASE_NAME := tiare
 
 # Inherit from this configs
 $(call inherit-product, build/target/product/embedded.mk)
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Encryption
 PRODUCT_PACKAGES += \
@@ -29,7 +29,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEVICE := tiare
 PRODUCT_NAME := omni_tiare
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Note Go
+PRODUCT_MODEL := Redmi Go
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_PROPERTY_OVERRIDES += \
